@@ -1,0 +1,203 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From BeiAngAir_V4.0s:
+* .DS_Store
+* .gitignore
+* BeiAngSwipeback_lib/
+* BeiAngSwipeback_lib/.DS_Store
+* BeiAngSwipeback_lib/.classpath
+* BeiAngSwipeback_lib/.gitignore.xml
+* BeiAngSwipeback_lib/.project
+* BeiAngSwipeback_lib/.settings/
+* BeiAngSwipeback_lib/.settings/org.eclipse.jdt.core.prefs
+* BeiAngSwipeback_lib/AndroidManifest.xml
+* BeiAngSwipeback_lib/bin/
+* BeiAngSwipeback_lib/bin/AndroidManifest.xml
+* BeiAngSwipeback_lib/bin/R.txt
+* BeiAngSwipeback_lib/bin/beiangswipeback_lib.jar
+* BeiAngSwipeback_lib/bin/classes/
+* BeiAngSwipeback_lib/bin/classes/me/
+* BeiAngSwipeback_lib/bin/classes/me/imid/
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/BuildConfig.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/R$attr.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/R$drawable.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/R$id.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/R$layout.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/R$style.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/R$styleable.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/R.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/SwipeBackLayout$SwipeListener.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/SwipeBackLayout$ViewDragCallback.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/SwipeBackLayout.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/ViewDragHelper$1.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/ViewDragHelper$2.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/ViewDragHelper$Callback.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/ViewDragHelper.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/app/
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/app/.DS_Store
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/app/SwipeBackActivity.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/app/SwipeBackActivityBase.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/app/SwipeBackActivityHelper.class
+* BeiAngSwipeback_lib/bin/classes/me/imid/swipebacklayout/lib/app/SwipeBackPreferenceActivity.class
+* BeiAngSwipeback_lib/bin/jarlist.cache
+* BeiAngSwipeback_lib/bin/res/
+* BeiAngSwipeback_lib/bin/res/crunch/
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-hdpi/
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-hdpi/ic_launcher.png
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-mdpi/
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-mdpi/ic_launcher.png
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-xhdpi/
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-xhdpi/ic_launcher.png
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-xhdpi/shadow_bottom.png
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-xhdpi/shadow_left.png
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-xhdpi/shadow_right.png
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-xxhdpi/
+* BeiAngSwipeback_lib/bin/res/crunch/drawable-xxhdpi/ic_launcher.png
+* BeiAngSwipeback_lib/gen/
+* BeiAngSwipeback_lib/gen/me/
+* BeiAngSwipeback_lib/gen/me/imid/
+* BeiAngSwipeback_lib/gen/me/imid/swipebacklayout/
+* BeiAngSwipeback_lib/gen/me/imid/swipebacklayout/lib/
+* BeiAngSwipeback_lib/gen/me/imid/swipebacklayout/lib/BuildConfig.java
+* BeiAngSwipeback_lib/gen/me/imid/swipebacklayout/lib/R.java
+* BeiAngSwipeback_lib/ic_launcher-web.png
+* BeiAngSwipeback_lib/libs/
+* BeiAngSwipeback_lib/libs/android-support-v4.jar
+* BeiAngSwipeback_lib/proguard-project.txt
+* BeiAngSwipeback_lib/project.properties
+* BeiAngSwipeback_lib/res/
+* BeiAngSwipeback_lib/res/.DS_Store
+* BeiAngSwipeback_lib/res/drawable-hdpi/
+* BeiAngSwipeback_lib/res/drawable-hdpi/ic_launcher.png
+* BeiAngSwipeback_lib/res/drawable-mdpi/
+* BeiAngSwipeback_lib/res/drawable-mdpi/ic_launcher.png
+* BeiAngSwipeback_lib/res/drawable-xhdpi/
+* BeiAngSwipeback_lib/res/drawable-xhdpi/ic_launcher.png
+* BeiAngSwipeback_lib/res/drawable-xhdpi/shadow_bottom.png
+* BeiAngSwipeback_lib/res/drawable-xhdpi/shadow_left.png
+* BeiAngSwipeback_lib/res/drawable-xhdpi/shadow_right.png
+* BeiAngSwipeback_lib/res/drawable-xxhdpi/
+* BeiAngSwipeback_lib/res/drawable-xxhdpi/ic_launcher.png
+* BeiAngSwipeback_lib/res/layout/
+* BeiAngSwipeback_lib/res/layout/swipeback_layout.xml
+* BeiAngSwipeback_lib/res/values/
+* BeiAngSwipeback_lib/res/values/attrs.xml
+* BeiAngSwipeback_lib/res/values/styles.xml
+* BeiAngSwipeback_lib/src/
+* BeiAngSwipeback_lib/src/me/
+* BeiAngSwipeback_lib/src/me/imid/
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/SwipeBackLayout.java
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/ViewDragHelper.java
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/app/
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/app/.DS_Store
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/app/SwipeBackActivity.java
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/app/SwipeBackActivityBase.java
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/app/SwipeBackActivityHelper.java
+* BeiAngSwipeback_lib/src/me/imid/swipebacklayout/lib/app/SwipeBackPreferenceActivity.java
+* README.md
+* proguard-project.txt
+From BeiAngSwipeback_lib:
+* .DS_Store
+* .gitignore.xml
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In BeiAngSwipeback_lib:
+* AndroidManifest.xml => beiAngSwipeback_lib/src/main/AndroidManifest.xml
+* assets/ => beiAngSwipeback_lib/src/main/assets
+* res/ => beiAngSwipeback_lib/src/main/res/
+* src/ => beiAngSwipeback_lib/src/main/java/
+* src/me/imid/swipebacklayout/lib/app/.DS_Store => beiAngSwipeback_lib/src/main/resources/me/imid/swipebacklayout/lib/app/.DS_Store
+In BeiAngAir_V4.0s:
+* AndroidManifest.xml => beiAngAir_V40s/src/main/AndroidManifest.xml
+* assets/ => beiAngAir_V40s/src/main/assets/
+* libs/AlibabaAlinkSDK_PrivateCloud_0910_Online.jar => beiAngAir_V40s/libs/AlibabaAlinkSDK_PrivateCloud_0910_Online.jar
+* libs/BLBeiangtechEairParse.jar => beiAngAir_V40s/libs/BLBeiangtechEairParse.jar
+* libs/Baidu-Frontia-Android-2.0.5.jar => beiAngAir_V40s/libs/Baidu-Frontia-Android-2.0.5.jar
+* libs/armeabi/liblocSDK4d.so => beiAngAir_V40s/src/main/jniLibs/armeabi/liblocSDK4d.so
+* libs/armeabi/libmp3lame.so => beiAngAir_V40s/src/main/jniLibs/armeabi/libmp3lame.so
+* libs/commons-codec-1.10.jar => beiAngAir_V40s/libs/commons-codec-1.10.jar
+* libs/flame.jar => beiAngAir_V40s/libs/flame.jar
+* libs/httpmime-4.1.2.jar => beiAngAir_V40s/libs/httpmime-4.1.2.jar
+* libs/libammsdk.jar => beiAngAir_V40s/libs/libammsdk.jar
+* libs/locSDK_4.2.jar => beiAngAir_V40s/libs/locSDK_4.2.jar
+* libs/ormlite-android-4.41.jar => beiAngAir_V40s/libs/ormlite-android-4.41.jar
+* libs/ormlite-core-4.41.jar => beiAngAir_V40s/libs/ormlite-core-4.41.jar
+* libs/umeng-update-v2.4.2.jar => beiAngAir_V40s/libs/umeng-update-v2.4.2.jar
+* libs/volley.jar => beiAngAir_V40s/libs/volley.jar
+* libs/xUtils-2.6.11.jar => beiAngAir_V40s/libs/xUtils-2.6.11.jar
+* libs/zxing.jar => beiAngAir_V40s/libs/zxing.jar
+* lint.xml => beiAngAir_V40s/lint.xml
+* res/ => beiAngAir_V40s/src/main/res/
+* src/ => beiAngAir_V40s/src/main/java/
+* src/.DS_Store => beiAngAir_V40s/src/main/resources/.DS_Store
+* src/com/.DS_Store => beiAngAir_V40s/src/main/resources/com/.DS_Store
+* src/com/beiang/.DS_Store => beiAngAir_V40s/src/main/resources/com/beiang/.DS_Store
+* src/com/beiang/airdog/.DS_Store => beiAngAir_V40s/src/main/resources/com/beiang/airdog/.DS_Store
+* src/com/beiang/airdog/ui/.DS_Store => beiAngAir_V40s/src/main/resources/com/beiang/airdog/ui/.DS_Store
+* src/com/beiang/airdog/ui/activity/.DS_Store => beiAngAir_V40s/src/main/resources/com/beiang/airdog/ui/activity/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

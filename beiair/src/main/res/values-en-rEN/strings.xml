@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">贝艾尔</string>
+
+    <!-- easyLink -->
+    <string name="alert_easylink_title">Easylink Alert</string>
+    <string name="alert_invalid_input_title">Invalid input</string>
+    <string name="alert_successfully_connected">Easylink App Connected Successfully</string>
+    <string name="alert_connection_failed">Failed to configure EMW device</string>
+    <string name="alert_connection_timeout">Connection to EMW was timed out.Please try again</string>
+    <string name="alert_successfully_failed">Failed to configure EMW device</string>
+    <string name="alert_no_network_title">No Network</string>
+    <string name="alert_invalid_password_msg">Please enter valid password</string>
+    <string name="alert_invalid_gatewayip_msg">Please enter valid Gateway IP address</string>
+    <string name="alert_invalid_ssid_mesg">Please enter valid SSID</string>
+    <string name="alert_invalid_key_mesg">Please enter valid Key exactly 16 characters</string>
+    <string name="alert_no_wifi_mesg">WiFi not available.Please check your WiFi connection.</string>
+    <string name="config_default_gateway_val">127.0.0.1</string>
+    <string name="config_default_device_name">Device Name</string>
+
+    <!-- Utility Strings -->
+    <string name="easylink_string_ok">ok</string>
+    <string name="user_info">User Info</string>
+    <string name="format_timer_txt">%1$s小时%2$s分钟后%3$s</string>
+    <string name="easylink_succee">配置成功</string>
+
+</resources>
