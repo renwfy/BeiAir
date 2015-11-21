@@ -1,0 +1,14 @@
+[release]
+Keystore information:
+Password: beiang
+Alias: beiang
+Alias Password: beiang
+
+
+[debug]
+Keystore information:
+Password: android
+Alias: androiddebugkey
+Alias Password: android
+
+
