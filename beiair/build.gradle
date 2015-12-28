@@ -13,11 +13,21 @@ android {
     }
 
     signingConfigs {
-        release{
-            storeFile file("keystore/beiang.keystore")
-            storePassword "beiang"
-            keyAlias "beiang"
-            keyPassword "beiang"
+        release {
+            storeFile file("keystore/beiair.keystore")
+            storePassword "123456"
+            keyAlias "beiair"
+            keyPassword "123456"
+        }
+        debug {
+            storeFile file("keystore/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+
+        lintOptions {
+            abortOnError false
         }
     }
 
@@ -25,7 +35,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-            signingConfig  signingConfigs.release
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
         }
     }
     packagingOptions {

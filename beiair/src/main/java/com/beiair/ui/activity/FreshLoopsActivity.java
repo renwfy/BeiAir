@@ -271,7 +271,7 @@ public class FreshLoopsActivity extends BaseMultiPartActivity implements OnClick
 
             //指针刻度
             int index = (int) (airPm25 / 2.55);
-            int resource_ID = getResources().getIdentifier("ic_tick" + index, "drawable", "com.broadlink.beiangair");
+            int resource_ID = getResources().getIdentifier("ic_tick" + index, "drawable", "com.beiair");
             if (resource_ID != 0) {
                 Drawable drawable = getResources().getDrawable(resource_ID);
                 iv_tick_bg.setImageDrawable(drawable);
@@ -425,7 +425,7 @@ public class FreshLoopsActivity extends BaseMultiPartActivity implements OnClick
      * 定时器
      */
     private void startMxRefreshTimer() {
-        mHandler.postDelayed(task, 4500);
+        mHandler.postDelayed(task, 5500);
     }
 
     private void stopMxRefreshTimer() {
@@ -514,7 +514,9 @@ public class FreshLoopsActivity extends BaseMultiPartActivity implements OnClick
         // TODO Auto-generated method stub
         if(R.id.fc_iv_fast != v.getId()){
             //点击其他键要推出急速
-            mAirInfo.setPosition(AirConstant.WIND.LOW);
+            if(mAirInfo.getPosition() == 100){
+                mAirInfo.setPosition(AirConstant.WIND.LOW);
+            }
         }
         switch (v.getId()) {
             case R.id.fc_iv_power:
